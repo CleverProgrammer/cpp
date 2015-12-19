@@ -1,7 +1,12 @@
+//
+// Created by Rafeh Qazi on 12/18/15.
+//
 #include <iostream>
+#include "guess.h"
+
 using namespace std;
 
-int main() {
+int guess() {
     string numberGuessed;
     int intNumberGuessed = 0;
     do {

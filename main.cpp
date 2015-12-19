@@ -2,6 +2,9 @@
 #include "basic_data_types/basic_data_types.h"
 #include "dictionary_map/map.h"
 #include "conditionals/conditional.h"
+#include "functions/max_of_four.h"
+#include "guess_game/guess.h"
+#include "strings/strings.h"
 
 using namespace std;
 
@@ -9,9 +12,12 @@ using namespace std;
 void basics();
 int main () {
     // input_output();
-    basics();
-    dict_map();
-    conditional_();
+    // basics();
+    // dict_map();
+    // conditional_();
+    // guess();
+    // function_max();
+    strings();
     return 0;  // you always have to put this in c++.
 }
 
