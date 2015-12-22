@@ -5,6 +5,7 @@
 #include "functions/max_of_four.h"
 #include "guess_game/guess.h"
 #include "strings/strings.h"
+#include "arrays/arrays.h"
 
 using namespace std;
 
@@ -17,7 +18,8 @@ int main () {
     // conditional_();
     // guess();
     // function_max();
-    strings();
+    // strings();
+    student_grades();
     return 0;  // you always have to put this in c++.
 }
 
