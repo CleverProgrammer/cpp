@@ -3,5 +3,5 @@ project(intro_cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp basic_data_types/basic_data_types.cpp basic_data_types/basic_data_types.h dictionary_map/map.cpp dictionary_map/map.h conditionals/conditional.cpp conditionals/conditional.h functions/max_of_four.cpp functions/max_of_four.h guess_game/guess.cpp guess_game/guess.h strings/strings.cpp strings/strings.h arrays/studentGrades.cpp arrays/studentGrades.h)
+set(SOURCE_FILES main.cpp basic_data_types/basic_data_types.cpp basic_data_types/basic_data_types.h dictionary_map/map.cpp dictionary_map/map.h conditionals/conditional.cpp conditionals/conditional.h functions/max_of_four.cpp functions/max_of_four.h guess_game/guess.cpp guess_game/guess.h strings/strings.cpp strings/strings.h arrays/studentGrades.cpp arrays/studentGrades.h chapter_2/seconds_to_hours_formatting.cpp chapter_2/seconds_to_hours_formatting.h)
 add_executable(intro_cpp ${SOURCE_FILES})

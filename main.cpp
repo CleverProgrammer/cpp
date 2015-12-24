@@ -6,14 +6,16 @@
 #include "guess_game/guess.h"
 #include "strings/strings.h"
 #include "arrays/studentGrades.h"
+#include "chapter_2/seconds_to_hours_formatting.h"
 
 using namespace std;
 
 
 void basics();
 int main () {
+    secToHMS(9630);
     // input_output();
-    basics();
+    // basics();
     // dict_map();
     // conditional_();
     // guess();
@@ -113,6 +115,15 @@ void basics() {
         cout << "bob[" << i << "] = " << bob[i] << endl;
     }
 
+    // Let's learn about CONSTANT values
+    // const dataType identifier = value;
+    const double CONVERSION_CENTIMETER = 2.54;
+    const int NO_OF_STUDENTS = 20;
+    const char BLANK = ' ';
+    cout << CONVERSION_CENTIMETER << endl;
+    const float CONVERSION = 2.54f;
+    cout << CONVERSION << endl;
+    cout << 5%7 << endl;
 }
 // Other types include:
 // short int: At least 16 bits
