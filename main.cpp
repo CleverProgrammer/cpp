@@ -5,7 +5,7 @@
 #include "functions/max_of_four.h"
 #include "guess_game/guess.h"
 #include "strings/strings.h"
-#include "arrays/arrays.h"
+#include "arrays/studentGrades.h"
 
 using namespace std;
 
@@ -13,13 +13,13 @@ using namespace std;
 void basics();
 int main () {
     // input_output();
-    // basics();
+    basics();
     // dict_map();
     // conditional_();
     // guess();
     // function_max();
     // strings();
-    student_grades();
+    // student_grades();
     return 0;  // you always have to put this in c++.
 }
 
@@ -80,6 +80,39 @@ void basics() {
     cout << "bad numbers: " << badNums[4] << endl;
     cout << "bad numbers: " << badNums[5] << endl;
     cout << "bad numbers: " << badNums[100] << endl;
+
+    // Casting
+    cout << static_cast<int> (7.9) << endl;
+
+    cout << "static_cast<double> (25) = "
+         << static_cast<double> (25) << endl;
+
+    cout << "static_cast<double> (5 + 3) = "
+         << static_cast<double> (5 + 3) << endl;
+
+    cout << "static_cast<double> (15) / 2 = "
+         << static_cast<double> (15) / 2 << endl;
+
+    cout << (15) / 2 << endl;
+
+    cout << "static_cast<int> ('A') = "
+    << static_cast<int> ('A') << endl;
+
+    cout << "static_cast<int> ('B') = "
+    << static_cast<int> ('B') << endl;
+
+    cout << "static_cast<char> (65) = "
+    << static_cast<char> (65) << endl;
+
+    cout << 'A' + 'B' << endl;
+    cout << static_cast<int> ('A') + static_cast<int> ('B') << endl;
+
+    string bob = "Bob";
+    cout << "bob = " << bob << endl;
+    for (int i = 0; i < bob.size(); i++) {
+        cout << "bob[" << i << "] = " << bob[i] << endl;
+    }
+
 }
 // Other types include:
 // short int: At least 16 bits

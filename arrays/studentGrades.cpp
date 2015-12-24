@@ -83,7 +83,7 @@ Mean (lowest dropped) = 88.75
 -------------------------------------
 */
 
-#include "arrays.h"
+#include "studentGrades.h"
 #include <iostream>
 #include <vector>
 using namespace std;
