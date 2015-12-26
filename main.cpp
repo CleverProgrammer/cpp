@@ -9,14 +9,16 @@
 #include "arrays/studentGrades.h"
 #include "math/math.h"
 #include "io/io.h"
+#include "chapter_2/seconds_to_hours_formatting.h"
 
 using namespace std;
 
 
 void basics();
 int main () {
+    // secToHMS(9630);
     // input_output();
-    basics();
+    // basics();
     // dict_map();
     // conditional_();
     // guess();
@@ -24,7 +26,7 @@ int main () {
     // strings();
     // student_grades();
     // math();
-    // io();
+    io();
     return 0;  // you always have to put this in c++.
 }
 
@@ -127,6 +129,15 @@ void basics() {
     cout << std::fixed << std::showpoint;
     cout << setw(10) << 20.56 << setw(10) << 50.2 << endl;
     cout << setw(10) << 20.56 << setw(10) << 50.2 << endl;
+    // Let's learn about CONSTANT values
+    // const dataType identifier = value;
+    const double CONVERSION_CENTIMETER = 2.54;
+    const int NO_OF_STUDENTS = 20;
+    const char BLANK = ' ';
+    cout << CONVERSION_CENTIMETER << endl;
+    const float CONVERSION = 2.54f;
+    cout << CONVERSION << endl;
+    cout << 5%7 << endl;
 }
 // Other types include:
 // short int: At least 16 bits
