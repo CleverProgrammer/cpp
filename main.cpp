@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "basic_data_types/basic_data_types.h"
 #include "dictionary_map/map.h"
 #include "conditionals/conditional.h"
@@ -6,6 +7,8 @@
 #include "guess_game/guess.h"
 #include "strings/strings.h"
 #include "arrays/studentGrades.h"
+#include "math/math.h"
+#include "io/io.h"
 
 using namespace std;
 
@@ -20,6 +23,8 @@ int main () {
     // function_max();
     // strings();
     // student_grades();
+    // math();
+    // io();
     return 0;  // you always have to put this in c++.
 }
 
@@ -113,6 +118,15 @@ void basics() {
         cout << "bob[" << i << "] = " << bob[i] << endl;
     }
 
+    char _num;
+    _num = '2';
+    cout << "'2' + 'B' = " << _num + 'B' << endl;
+    cout << setprecision(2) << "Set precision(2) of 5.323 = " << 5.323 << endl;
+    cout << setprecision(1) << "Set precision(1) of 5.323 = " << 5.323 << endl;
+    cout << setw(26) << "H I J K L M N O P Q R S T" << endl;
+    cout << std::fixed << std::showpoint;
+    cout << setw(10) << 20.56 << setw(10) << 50.2 << endl;
+    cout << setw(10) << 20.56 << setw(10) << 50.2 << endl;
 }
 // Other types include:
 // short int: At least 16 bits
