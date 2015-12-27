@@ -10,6 +10,8 @@
 #include "math/math.h"
 #include "io/io.h"
 #include "chapter_2/seconds_to_hours_formatting.h"
+#include "file_input_output/fileIO.h"
+#include "chapter_3/movieTickets.h"
 
 using namespace std;
 
@@ -26,7 +28,9 @@ int main () {
     // strings();
     // student_grades();
     // math();
-    io();
+    // io();
+    // fileIO();
+    movieSalesReport();
     return 0;  // you always have to put this in c++.
 }
 

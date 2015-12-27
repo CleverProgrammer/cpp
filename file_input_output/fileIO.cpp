@@ -11,7 +11,7 @@
 */
 
 // step 1
-// #include "fileIO.h"
+#include "fileIO.h"
 #include <iostream>
 #include <fstream>
 
@@ -30,7 +30,7 @@ int fileIO() {
 
     // step 4
     getline(inData, studentName);
-    outData << studentName;
+    outData << "Hi from iMac lol.";
 
     // step 5
     inData.close();
